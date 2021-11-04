@@ -14,7 +14,7 @@ parser = argparse.ArgumentParser(description='A tool for quickly adding residue 
 parser.add_argument('-f', action = "store", dest = "filename", help = "PDB File Name")
 parser.add_argument('-n', action = "store", dest = "number", help = "original number for the first residue (ATOM) in the input pdb file", type = int, default = 0)
 parser.add_argument('-add', action = "store", dest = "addnumber", help = "the number to be added for all residues (ATOM)", type = int, default = 0)
-parser.add_argument('-chain', action = "store", dest = "chain", help = "the chain for adding number and default for all chains", type = str, default = "A")
+parser.add_argument('-chain', action = "store", dest = "chain", help = "the chain for adding number", type = str, default = "A")
 
 arg = parser.parse_args()
 
