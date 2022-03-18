@@ -103,4 +103,4 @@ def info2stat(arg.filename):
         df["Cent._of_mass_Alpha_Sphere_max_dist"] = Cent_of_mass_Alpha_Sphere_max_dist
         df["Flexibility"] = Flexibility
         df.to_csv(filename.split("_")[0] + "_stat.csv", index = False)
-
+  
